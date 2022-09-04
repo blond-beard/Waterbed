@@ -10,7 +10,7 @@ namespace Scripts.Controller
     public class Controller2D : MonoBehaviour
     {
         [Header("Value")]
-        [SerializeField] public float WalkSpeed = 10f;
+        [SerializeField] public float WalkSpeed = 1000f;
 
         // public Animator animator;
         public Rigidbody2D rigidBody;
