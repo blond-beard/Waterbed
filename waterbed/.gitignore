@@ -636,3 +636,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,jetbrains+all,unity,csharp,linux,macos,windows
+
+### Custom
+
+# Text Mesh Pro
+/Assets/TextMesh Pro/Examples & Extras*
