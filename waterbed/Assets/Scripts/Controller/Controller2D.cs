@@ -22,7 +22,6 @@ namespace Scripts.Controller
         {
             // this.animator = this.GetComponent<Animator>();
             this.spriteRenderer = GetComponent<SpriteRenderer>();
-
         }
 
         public void Move(float horizontal) {
