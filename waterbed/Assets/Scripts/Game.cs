@@ -11,6 +11,8 @@ namespace Scripts
         [SerializeField] public GameObject SkillWindow;
         [SerializeField] public GameObject MapWindow;
 
+        // public 
+
         private void Start()
         {
 
