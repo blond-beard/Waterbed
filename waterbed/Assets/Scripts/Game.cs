@@ -9,22 +9,28 @@ namespace Scripts
     public class Game : MonoBehaviour
     {
         [SerializeField] public GameObject SkillWindow;
+        [SerializeField] public GameObject MapWindow;
 
         private void Start()
         {
-            
+
         }
 
-        private void OpenClose() {
-            SkillWindow.SetActive(!SkillWindow.activeSelf);
+        private void toggleWindow(GameObject window)
+        {
+            window.SetActive(!window.activeSelf);
         }
- 
+
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.M))
+            if (Input.GetKeyDown(KeyCode.K))
             {
-                OpenClose();
-            } 
+                this.toggleWindow(this.SkillWindow);
+            }
+            else if (Input.GetKeyDown(KeyCode.M))
+            {
+                this.toggleWindow(this.MapWindow);
+            }
         }
     }
 }
