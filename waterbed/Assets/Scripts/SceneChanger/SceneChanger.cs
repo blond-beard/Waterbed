@@ -23,4 +23,18 @@ public class SceneChanger : MonoBehaviour
     }
 
 }
+/*
+    public void Change()
+    {
+        if(GameFirstRun == true)
+            {
+                SceneManager.LoadScene("Story");
+            }
+        else
+            {
+                SceneManager.LoadScene("Main");
+            }
+    }
+*/
+
 // test quote for github branch commits
